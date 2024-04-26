@@ -1,0 +1,172 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+nav {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: rgb(0, 0, 10);
+}
+
+nav img {
+  width: 100px;
+  height: 62px;
+}
+
+nav li {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+nav button {
+  transition: 0.2s;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  border-radius: 4px;
+  padding: .375rem 1rem;
+}
+
+.landing {
+  margin-top: 180px;
+}
+
+.landing button {
+  transform: 0.2s;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  border-radius: 4px;
+  padding: .8rem 1.3rem;
+}
+
+.ligo-network {
+  padding-bottom: 70px;
+}
+
+.ligo-network .title {
+  color: rgb(74, 229, 46);
+  font-weight: 300;
+}
+
+.ligo-network img {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.btc-layer-2 {
+  padding-bottom: 200px;
+}
+
+.btc-layer-2 img {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.btc-layer-2 pre {
+  font-size: 1.12rem;
+}
+
+.strategic-partnerships {
+  padding-bottom: 150px;
+}
+
+.strategic-partnerships img {
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+
+.small-title {
+  color: #4AE52E;
+  padding-bottom: 10px;
+}
+
+.next-era {
+  padding-bottom: 150px;
+}
+
+.next-era img{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.next-era li {
+  font-size: 16px;
+}
+
+.next-era li img {
+  width: 10%;
+}
+
+.ready-layer {
+  padding-bottom: 250px;
+}
+
+.ready-layer img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.footer {
+  padding-bottom: 50px;
+}
+
+.footer img {
+  width: 100px;
+  height: 62px;
+}
+
+.icon {
+  width: 10%;
+}
+
+hr {
+  padding-bottom: 50px;
+}
+
+.social-icon img{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px;
+}
